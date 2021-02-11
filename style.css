@@ -193,6 +193,7 @@ h2 {
         grid-row: 1 / 2;
         width: 100%;
         height: auto;
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -212,7 +213,7 @@ h2 {
   
     .mission {
         grid-column: 1 / 5;
-        grid-row: 3 / 5;
+        grid-row: 2 / 3;
     }
     .products {
         grid-column: 1 / 5;
