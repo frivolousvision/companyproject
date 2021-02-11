@@ -152,7 +152,6 @@ h2 {
 
 .team {
     display: grid;
-    
     grid-area: 24 / 1 / 30 / 13;
     justify-content: center;
     text-align: center;
@@ -165,7 +164,8 @@ h2 {
 
 @media only screen and (max-width: 480px) {
     .grid {
-        grid-template: repeat(10, 1fr) / repeat(4, 1fr);        
+        grid-template-rows: repeat(10, 1fr); 
+        grid-template-columns: repeat(4, minmax(50px, 200px));        
         height: auto;
         max-width: 20rem;
     }
