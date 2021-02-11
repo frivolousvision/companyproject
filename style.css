@@ -177,7 +177,9 @@ h2 {
     .mission {
         grid-area: 11 / 1 / auto / 5;
     }
-
+    .products {
+        grid-area: 14 / 1 / 16 / 5;
+    }
     img {
         width: 95%;
     }
