@@ -76,14 +76,20 @@ img {
 .banner {
     grid-area: 2 / 1 / 10 / 13;
     width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/images/brutal\ banner.jpg);
+    background-size: contain;
     
 }
 .title {
     background-color: black;
-    grid-area: 5 / 1 / 6 / 13;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 h1 {
     font-family: "lexend mega";
@@ -143,12 +149,7 @@ h2 {
 .gallery-2 img {
     max-width: 15rem;
 }
-.team-box {
-    
-    
-    justify-content: center;
-    
-}
+
 .team {
     display: grid;
     
@@ -166,16 +167,13 @@ h2 {
     .grid {
         grid-template: repeat(10, 1fr) / repeat(4, 1fr);        
         height: auto;
+        max-width: 20rem;
     }
     .banner {
         grid-area: 2 / 1 / 10 / 5;
         max-width: 20rem;
     }
-    .title {
-        
-        grid-area: 5 / 1 / 6 / 5;
-        
-    }
+  
     .mission {
         grid-area: 11 / 1 / auto / 5;
     }
