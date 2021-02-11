@@ -22,6 +22,8 @@ body {
     height: 140rem;
     grid-template: repeat(30, 1fr) / repeat(12, 1fr);
     margin: auto;
+    position:relative;
+   top: 2.5rem; 
 }
 
 
@@ -83,6 +85,8 @@ img {
     background-image: url(./resources/images/brutal\ banner.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    
+    
     
 }
 .title {
@@ -175,7 +179,7 @@ h2 {
     .grid {
         grid-template-rows: repeat(17, minmax(50px, 200px)); 
         grid-template-columns: repeat(4, minmax(50px, 200px));        
-        grid-gap: 1rem 0;
+        gap: 1rem 0;
         height: auto;
         width: 100%;
     }
