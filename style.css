@@ -164,5 +164,15 @@ h2 {
 @media only screen and (max-width: 480px) {
     .grid {
         grid-template-columns: 100%;
+        height: auto;
+    }
+    img {
+        width: 95%;
+    }
+    .gallery-1 {
+        flex-direction: column;
+    }
+    .gallery-2 {
+        flex-direction: column;
     }
 }
