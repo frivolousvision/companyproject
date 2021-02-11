@@ -82,6 +82,7 @@ img {
     align-items: center;
     background-image: url(./resources/images/brutal\ banner.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     
 }
 .title {
