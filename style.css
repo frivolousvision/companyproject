@@ -175,7 +175,7 @@ h2 {
     .grid {
         grid-template-rows: repeat(17, minmax(50px, 200px)); 
         grid-template-columns: repeat(4, minmax(50px, 200px));        
-        grid-row: 1rem 0;
+        grid-gap: 1rem 0;
         height: auto;
         width: 100%;
     }
@@ -215,7 +215,7 @@ h2 {
         grid-column: 1 / 5;
         grid-row: 2 / 5;
         margin: 1rem auto;
-        width: 80%;
+        width: 90%;
         justify-content: center;
     }
     .products {
