@@ -120,9 +120,6 @@ h2 {
 
 .products {
     grid-area: 14 / 1 / 16 / 13;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
     text-align: center;
     width: 60rem;
 }
