@@ -70,7 +70,8 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 .banner {
     grid-area: 2 / 1 / 10 / 13;
@@ -79,7 +80,6 @@ img {
 }
 .title {
     background-color: black;
-    
     grid-area: 5 / 1 / 6 / 13;
     display: flex;
     justify-content: center;
@@ -168,8 +168,13 @@ h2 {
         height: auto;
     }
     .banner {
-        grid-area: 2 / 1 / 10 / 13;
+        grid-area: 2 / 1 / 10 / 5;
         max-width: 20rem;
+    }
+    .title {
+        
+        grid-area: 5 / 1 / 6 / 5;
+        
     }
     .mission {
         grid-area: 11 / 1 / auto / 5;
