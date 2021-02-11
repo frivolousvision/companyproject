@@ -179,13 +179,13 @@ h2 {
     .grid {
         grid-template-rows: repeat(17, minmax(50px, 200px)); 
         grid-template-columns: repeat(4, minmax(50px, 200px));        
-        gap: 1rem 0;
+        gap: .5rem 0;
         height: auto;
         width: 100%;
     }
     h1 {
         font-size: 1rem;
-        color: red;
+        
     }
 
     h2 {font-size: 1rem;
