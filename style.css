@@ -76,7 +76,7 @@ img {
     width: 100%;
 }
 .banner {
-    grid-area: 2 / 1 / 10 / 13;
+    grid-area: 1 / 1 / 10 / 13;
     width: 100%;
     height: auto;
     display: flex;
@@ -151,7 +151,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    border: 1px solid red;
+    
 }
 .gallery-box {
     min-width: 15rem;
@@ -177,7 +177,7 @@ h2 {
 
 .team {
     display: grid;
-    grid-area: 24 / 1 / 30 / 13;
+    grid-area: 27 / 1 / 30 / 13;
     justify-content: center;
     text-align: center;
     
