@@ -137,9 +137,11 @@ h2 {
 .products {
     /*grid-area: 14 / 1 / 16 / 13;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
-    align-items: center;
+    align-content: center;
     width: 80%;
     margin: 0 auto;
     
@@ -151,6 +153,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 1rem;
     
 }
 .gallery-1 {
@@ -229,6 +232,7 @@ h2 {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        max-height: 50vh;
         
         
     }
