@@ -78,7 +78,6 @@ img {
 .banner {
     /*grid-area: 1 / 1 / 10 / 13;*/
     width: 90%;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +86,7 @@ img {
     background-repeat: no-repeat;
     margin: 0 auto;
     margin-bottom: 5vh;
-    border: 1px solid red;
+    
     
     
     
