@@ -6,6 +6,7 @@
 html {
     box-sizing: border-box;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -78,16 +79,16 @@ img {
 .banner {
     /*grid-area: 1 / 1 / 10 / 13;*/
     width: 90%;
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(./resources/images/brutal\ banner.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-bottom: 5vh;
-    border: 1px solid red;
+    margin: 5vh auto;
+    
+    
     
     
     
